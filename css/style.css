@@ -14,4 +14,39 @@ h1 {
 }
 header > p {
   margin-top: 50px;
+  text-align: justify;
+}
+.container {
+  width: 1000px;
+  margin: auto;
+}
+
+.col1-3 {
+  float: left;
+  width: 310px;
+  background-color: #0f0e17;
+  margin: 25px 20px 0 0;
+}
+.col1-3 img {
+  float: left;
+  width: 100px;
+  height: 100px;
+}
+
+.info {
+  color: white;
+  padding: 10px 0 0 110px;
+  text-align: left;
+}
+.name {
+  font-weight: bold;
+}
+
+.email {
+  color: #3cade5;
+}
+.cards::after {
+  content: attr("");
+  display: block;
+  clear: both;
 }
