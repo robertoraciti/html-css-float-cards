@@ -14,7 +14,7 @@ h1 {
 }
 header > p {
   margin-top: 50px;
-  text-align: justify;
+  text-align: center;
 }
 .container {
   width: 1000px;
@@ -26,6 +26,7 @@ header > p {
   width: 310px;
   background-color: #0f0e17;
   margin: 25px 20px 0 0;
+  box-shadow: 2px 2px 2px 2px lightgray;
 }
 .col1-6 img {
   float: left;
@@ -46,7 +47,7 @@ header > p {
   color: #3cade5;
 }
 .cards::after {
-  content: attr("");
+  content: "" "";
   display: block;
   clear: both;
 }
