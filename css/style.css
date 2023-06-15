@@ -21,13 +21,13 @@ header > p {
   margin: auto;
 }
 
-.col1-3 {
+.col1-6 {
   float: left;
   width: 310px;
   background-color: #0f0e17;
   margin: 25px 20px 0 0;
 }
-.col1-3 img {
+.col1-6 img {
   float: left;
   width: 100px;
   height: 100px;
